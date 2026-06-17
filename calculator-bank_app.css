@@ -1,0 +1,83 @@
+
+        body{
+            font-family:Arial;
+            background:#0f172a;
+            text-align:center;
+            padding:40px;
+            color:white;
+        }
+
+        .calculator{
+            background:#1e293b;
+            margin:auto;
+            padding:25px;
+            border-radius:20px;
+            box-shadow:0px 0px 20px rgba(0,0,0,0.5);
+        }
+
+        h1{
+            color:#38bdf8;
+        }
+
+        .screen{
+            background:black;
+            color:#00ff88;
+            font-size:35px;
+            padding:20px;
+            border-radius:10px;
+            margin-bottom:20px;
+            text-align:right;
+            min-height:50px;
+        }
+
+        input{
+            width:90%;
+            padding:12px;
+            font-size:18px;
+            border:none;
+            border-radius:10px;
+            margin-bottom:15px;
+        }
+
+        button{
+            width:120px;
+            padding:15px;
+            margin:5px;
+            border:none;
+            border-radius:10px;
+            font-size:18px;
+            cursor:pointer;
+        }
+
+        .income{
+            background:#22c55e;
+            color:white;
+        }
+
+        .expense{
+            background:#ef4444;
+            color:white;
+        }
+
+        .reset{
+            background:#64748b;
+            color:white;
+        }
+
+        .history{
+            margin-top:20px;
+            background:#111827;
+            padding:15px;
+            border-radius:10px;
+            text-align:left;
+            max-height:250px;
+            overflow-y:auto;
+        }
+
+        .incomeText{
+            color:#22c55e;
+        }
+
+        .expenseText{
+            color:#ef4444;
+        }
