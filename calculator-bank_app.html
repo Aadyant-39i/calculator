@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Bank Balance Calculator</title>
+
+    <style>
+
+    </style>
+<link rel="stylesheet" href="calculator-bank_app.css">
+</head>
+
+<body>
+
+    <div class="calculator">
+
+        <h1>🏦 Bank Calculator</h1>
+
+        <div class="screen">
+            $<span id="balance">0</span>
+        </div>
+
+        <input
+        type="number"
+        id="amount"
+        placeholder="Enter Amount">
+
+        <br>
+
+        <button
+        class="income"
+        onclick="addIncome()">
+
+            + Income
+
+        </button>
+
+        <button
+        class="expense"
+        onclick="addExpense()">
+
+            - Expense
+
+        </button>
+
+        <button
+        class="reset"
+        onclick="resetAll()">
+
+            Reset
+
+        </button>
+
+        <div class="history">
+
+            <h3>History</h3>
+
+            <div id="history"></div>
+
+        </div>
+
+    </div>
+
+    <script src="calculator-bank_app.js">
+
+        
+
+    </script>
+
+</body>
+
+</html>
